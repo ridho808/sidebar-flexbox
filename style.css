@@ -1,0 +1,104 @@
+body{
+    font-family: monospace;
+    background-color: rgb(24, 23, 23);
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.align{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.garis{
+    border: 2px solid;
+}
+.img{
+    width: 250px;
+    border-radius: 360px;
+}
+.container-1{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(76, 110, 110);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 30px;
+}
+
+.colm-1{
+    flex: 3;
+    order: 2;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid;
+}
+.sidebar-1{
+    flex: 1;
+    order: 1;
+    margin: 5px;
+}
+.sidebar-2{
+    flex: 1;
+    order: 2;
+    margin: 5px;
+    text-align: center;
+}
+
+.container-2{
+    max-width: 800px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    background-color: rgb(76, 110, 110);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.service-1{
+    background-color: #ffff;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border-radius:30px;
+}
+
+.service-2{
+    background-color: #ffff;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border-radius:30px;
+
+}
+.service-3{
+    padding: 10px;
+    background-color: #ffff;
+    color: black;
+    margin: 10px;
+    border-radius:30px;
+}
+
+/* responsive */
+
+@media  screen and (min-width:600px) {
+    .container-2{
+    justify-content: space-evenly;
+    display: flex;
+    }
+    .service-1{
+        width: 30%;
+    }
+    .service-2{
+        width: 30%;
+    }
+    .service-3{
+        width: 30%;
+    }
+}
